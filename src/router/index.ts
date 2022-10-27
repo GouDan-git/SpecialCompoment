@@ -4,9 +4,9 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: "/picture",
-      name: "picture",
-      component: () => import("@/views/Picture.vue"),
+      path: "/tableTemplatePage",
+      name: "tableTemplatePage",
+      component: () => import("@/views/TableTemplatePage.vue"),
     },
   ],
 });
